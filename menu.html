@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Trivia CMFP - Menú</title>
+</head>
+<body>
+    <div class="container_title">
+        <h1 class="title_cmpf">CMFP1</h1>   
+    </div>
+    <div class="container">
+        <img src="img/logo.png" alt="Logo" class="img">
+        <header>
+            <div class="puntaje">
+                <img src="img/puntos.png" alt="Puntos">
+                <span class="puntos" id="puntos">0</span>
+            </div>
+            <h1>Trivia Web</h1>
+            <div class="jugador">
+                <span class="nombre" id="nombre">Jugador</span>
+                <img src="img/user.png" alt="Usuario">
+            </div>
+        </header>
+
+        <!-- SECCIÓN MENÚ DEL JUEGO -->
+        <main class="menu">
+            <h2>Hola <span id="nombre-jugador">Jugador</span></h2>
+            <p>Elige una categoría y completa las 4 para ganar</p>
+            <div class="alerta">"Atención: Si retrocedes en la categoría, perderás el progreso. ¡Continúa para no perder tu avance!"</div>
+
+            <div class="categorias">
+                <div class="categoria" id="HTML">
+                    <img src="img/html.png" alt="HTML" class="foto-categoria">
+                    <h3>HTML</h3>
+                </div>
+                <div class="categoria" id="Diseño Web">
+                    <img src="img/diseñoweb.png" alt="Diseño Web" class="foto-categoria">
+                    <h3>Diseño Web</h3>
+                </div>
+                <div class="categoria" id="Wordpress">
+                    <img src="img/wordpress.png" alt="Wordpress" class="foto-categoria">
+                    <h3>Wordpress</h3>
+                </div>
+                <div class="categoria" id="CSS">
+                    <img src="img/moron.png" alt="Cultura Morón" class="foto-categoria">
+                    <h3>Cultura Morón</h3>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>

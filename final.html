@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Trivia CMFP - Resultado</title>
+</head>
+<body>
+    <div class="container_title">
+        <h1 class="title_cmpf">CMFP1</h1>   
+    </div>
+    
+    <div id="contenedor-oscuro" style="display: flex; align-items: center; justify-content: center; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 1); z-index: 999;">
+        <canvas id="canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></canvas>
+        <button class="btn" id="btn-felicitaciones" style="padding: 20px; font-size: 24px;">
+            ¡Felicitaciones!<br>
+            <small>Haz "click" para ver el resultado!</small>
+        </button>
+    </div>
+
+    <div class="container">
+        <img src="img/logo.png" alt="Logo" class="img">
+        <header>
+            <div class="puntaje">
+                <img src="img/puntos.png" alt="Puntos">
+                <span class="puntos" id="puntos">0</span>
+            </div>
+            <h1>Trivia Web</h1>
+            <div class="jugador">
+                <span class="nombre" id="nombre">Jugador</span>
+                <img src="img/user.png" alt="Usuario">
+            </div>
+        </header>
+
+        <main class="final">
+            <h2>Gracias por participar :)</h2>
+
+            <div class="medalla">
+                <img src="img/medalla.png" alt="Medalla">
+                <h3 id="nombre-jugador" class="nombre">Jugador</h3>
+            </div>
+
+            <span id="puntaje-final" class="puntaje-final">0 Puntos</span>
+
+            <h2>ACERTADAS: <span id="total-acertadas" class="final-score">0</span></h2>
+            <h2>INCORRECTAS: <span id="total-no-acertadas" class="final-score">0</span></h2>
+            <button class="btn" id="btn-comenzar">Comenzar de Nuevo</button>
+        </main>
+    </div>
+    
+    <audio id="musica-victoria" src="audio/musica-victoria.mp3"></audio>
+    <script src="js/final.js"></script>
+</body>
+</html>

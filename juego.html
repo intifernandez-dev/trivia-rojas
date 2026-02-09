@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Trivia CMFP - Juego</title>
+</head>
+<body>
+    <div class="container_title">
+        <h1 class="title_cmpf">CMFP1</h1>   
+    </div>
+
+    <div class="container">
+        <img src="img/logo.png" alt="Logo" class="img">
+        <header>
+            <div class="puntaje">
+                <img src="img/puntos.png" alt="Puntos">
+                <span class="puntos" id="puntos">0</span>
+            </div>
+            <h1>Trivia Web</h1>
+            <div class="jugador">
+                <span class="nombre" id="nombre">Jugador</span>
+                <img src="img/user.png" alt="Usuario">
+            </div>
+        </header>
+
+        <main class="juego">
+            <div class="contador-pregunta">
+                <span id="num-pregunta" class="num-pregunta">01</span>
+                /
+                <span>4</span>
+            </div>
+            <p id="txt-pregunta" class="pregunta">
+                ¿Texto de la pregunta?
+            </p>
+
+            <div class="opciones" id="opciones">
+                <button class="opcion" id="a">Opción A</button>
+                <button class="opcion" id="b">Opción B</button>
+                <button class="opcion" id="c">Opción C</button>
+                <button class="opcion" id="d">Opción D</button>
+            </div>
+
+            <button class="btn" id="siguiente">Siguiente</button>
+        </main>
+    </div>
+
+    <script src="js/juego.js"></script>
+</body>
+</html>
