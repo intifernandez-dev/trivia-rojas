@@ -47,6 +47,20 @@ Simplemente abre el archivo `index.html` en tu navegador.
 
 **Nota:** Algunos navegadores pueden bloquear LocalStorage al abrir archivos localmente. Se recomienda usar un servidor local.
 
+## 📸 Capturas de Pantalla
+
+### index
+![Principal](screenshots/img_index.png)
+
+### Categorias
+![Categorias](screenshots/img_categorias.png)
+
+### Preguntas
+![Preguntas](screenshots/img_jugando.png)
+
+### Final
+![Final](screenshots/img_final.png)
+
 ## 📁 Estructura del Proyecto
 
 ```
